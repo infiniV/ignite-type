@@ -1,4 +1,4 @@
-# Ignite Type
+# <img src="public/favicon-96x96.png" width="48" height="48" align="center" /> Ignite Type
 
 A gamified typing trainer designed to improve speed and accuracy through an immersive, visual interface.
 
