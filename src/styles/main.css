@@ -100,7 +100,7 @@ body {
 
 .area-pet { grid-area: pet; }
 .area-arena { grid-area: arena; }
-.area-keyboard { grid-area: keyboard; padding: 20px; }
+.area-keyboard { grid-area: keyboard; padding: 10px; }
 .area-bottom { 
     grid-area: bottom; 
     flex-direction: row; 
@@ -142,12 +142,12 @@ body {
     display: flex; flex-direction: column;
     justify-content: center; align-items: flex-start;
     height: 100%; width: 100%;
-    padding: 60px;
+    padding: 30px;
     position: relative;
 }
 
 .text-display {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     line-height: 1.6;
     text-align: left;
     width: 100%;
@@ -218,7 +218,7 @@ body {
 .kb-row { display: flex; justify-content: center; margin-bottom: 10px; }
 
 .key {
-    width: 58px; height: 58px; margin: 0 5px;
+    width: 48px; height: 48px; margin: 0 4px;
     position: relative;
     background-color: var(--key-bg);
     border-radius: 10px;
@@ -261,12 +261,12 @@ body {
 }
 
 /* Key Sizes */
-.key.w-1-5 { width: 87px; }
-.key.w-1-75 { width: 101.5px; }
-.key.w-2 { width: 116px; }
-.key.w-2-25 { width: 130.5px; }
-.key.w-2-5 { width: 145px; }
-.key.w-6 { width: 358px; }
+.key.w-1-5 { width: 72px; }
+.key.w-1-75 { width: 84px; }
+.key.w-2 { width: 96px; }
+.key.w-2-25 { width: 108px; }
+.key.w-2-5 { width: 120px; }
+.key.w-6 { width: 296px; }
 
 /* Finger Markers */
 body.show-fingers .key::after {
