@@ -1,16 +1,22 @@
-# <img src="public/logo.png" width="48" height="48" align="center" /> Ignite Type
-
-A gamified typing trainer designed to improve speed and accuracy through an immersive, visual interface.
+<div align="center">
+  <img src="resources/logo.png" alt="Ignite Type Logo" width="120" />
+  <h1>Ignite Type</h1>
+  <p>
+    A gamified typing trainer designed to improve speed and accuracy through an immersive, visual interface.
+  </p>
+  <br />
+  <img src="resources/app.png" alt="Ignite Type Application" width="100%" />
+</div>
 
 ## Features
 
-- Multiple typing modes: Common words, Sentences, Paragraphs, and Code snippets.
-- Visual keyboard with finger placement guides.
-- Dynamic themes: Cyberpunk, Glass, Pixel, Bento, and Retro.
-- Real-time statistics: WPM, Accuracy, Streak, and Time.
-- Companion system that levels up as you type.
-- Combo system with visual effects.
-- Sound effects for typing feedback.
+- **Multiple Typing Modes**: Practice with common words, full sentences, paragraphs, or code snippets.
+- **Visual Keyboard**: Real-time finger placement guides to improve touch typing.
+- **Dynamic Themes**: Choose from Cyberpunk, Glass, Pixel, Bento, and Retro styles.
+- **Real-time Statistics**: Track WPM, accuracy, streak, and time as you type.
+- **Companion System**: A virtual companion that levels up based on your performance.
+- **Combo System**: Visual effects that intensify with your typing streak.
+- **Sound Effects**: Audio feedback for keystrokes and errors.
 
 ## Discussion
 
@@ -19,10 +25,16 @@ This project explores the intersection of productivity tools and game design. Th
 ## Running Locally
 
 1. Install dependencies:
+   ```bash
    npm install
+   ```
 
 2. Run the development server:
+   ```bash
    npm run dev
+   ```
 
 3. Build the desktop application:
+   ```bash
    npm run tauri build
+   ```
