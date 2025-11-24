@@ -223,6 +223,7 @@ function resetGame() {
     updateStats();
     highlightNextKey();
     $('combo-display').classList.remove('visible');
+    $('stats-time').textContent = '0:00';
 }
 
 function renderText() {
@@ -498,6 +499,14 @@ function gameLoop() {
                 const x = Math.random() * canvas.width;
                 particles.push(new Particle(x, canvas.height));
         }
+    }
+
+    // Update Timer
+    if (STATE.isPlaying && !STATE.isPaused) {
+        const elapsedSeconds = Math.floor((Date.now() - STATE.startTime) / 1000);
+        const mins = Math.floor(elapsedSeconds / 60);
+        const secs = elapsedSeconds % 60;
+        $('stats-time').textContent = `${mins}:${secs.toString().padStart(2, '0')}`;
     }
 
     requestAnimationFrame(gameLoop);
