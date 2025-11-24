@@ -4,6 +4,9 @@
   <p>
     A gamified typing trainer designed to improve speed and accuracy through an immersive, visual interface.
   </p>
+  <a href="https://github.com/infiniV/ignite-type/releases/tag/v1.0.0">
+    <img src="https://img.shields.io/badge/Download-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows" />
+  </a>
   <br />
   <img src="resources/app.png" alt="Ignite Type Application" width="100%" />
 </div>
